@@ -1,0 +1,113 @@
+.main_container{
+    width: 75%;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;  
+}
+
+
+.main_container .container-1{
+    border: 1px solid black; 
+}
+
+.main_container .container-1 .flex-box-container-1{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.main_container .container-1 .flex-box-container-1 .result{
+    border: 1px solid black; 
+    padding: 10px;
+}
+
+.container-1 .cat{
+    border: 1px solid black;   
+    padding: 10px;  
+}
+
+.main_container .container-1 .rps{
+    border: 1px solid black;   
+    padding: 10px; 
+}
+
+button{
+    color: white;
+}
+
+.click_me button{
+    background-color: blue;
+    padding: 10px;
+}
+
+.reset button{
+    background-color: red;
+    padding: 10px;
+}
+
+.generate-cat{
+    background-color: green;  
+    margin-bottom: 10px;
+}
+
+img{
+    padding: 25px;
+}
+
+#cha4{
+    padding: 10px;
+}
+
+#flexbox-color{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.weee{
+    background-color: blue;
+}
+
+.yahoo{
+    background-color: red;
+}
+
+.google{
+    background-color: darkgoldenrod;
+}
+
+.facebook{
+    background-color: green;
+}
+
+button{
+    padding: 10px;
+}
+
+#guess{
+    background-color: skyblue;
+    
+}
+
+.flex{
+    justify-content: space-around;
+}
+
+.flex-box-container-1 .click_me, .flex-box-container-1 .reset, #guesses{
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.loginform{
+    margin: 30px;
+    border: 0.1 black solid;
+    background-color: rgb(230, 255, 255);
+}
+
+

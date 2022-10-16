@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript on steriods</title>
+    <link rel="stylesheet" href="python.css">
+</head>
+<body>
+    
+    <div class="main_container">
+        <!-- challenge 1       -->
+        <div class="container-1">
+            <h2>Challenge 1: Your Age in Days</h2>
+
+            <div class="flex-box-container-1">
+                <div class="click_me">
+                    <button id="btn1" onclick="ageindays(this)">Click me</button>
+                </div>
+        
+                <div class="reset">
+                    <button id="btn2" onclick="reset()">reset</button>
+                </div>
+
+            </div>
+
+            
+            <div class="flex-box-container-1">
+                <div id="flex-box-result" class="result"></div>
+            </div>
+        </div>
+
+        <!-- challenge 2 -->
+
+        <div class="container-1" id="container-2">
+            <h2 class="cat">Challenge 2: Cat Generator</h2>
+            
+            <div class="cat-div">
+                <button class="generate-cat" id="catz">Generate Cat</button>
+            </div>
+            
+            <div class="flex-box-container-1" id="gen-cat">
+                <!-- <img src="http://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt=""> -->
+            </div>
+
+
+
+        </div>
+        
+        <!-- challenge 3 -->
+        
+        <div class="container-1" id="container-2">
+            <div>
+                <h2 class="rps">Challenge 3: Rock, Paper, Scissors</h2>
+            </div>
+    
+            <div id="image">
+                <img src="rock.jpeg" id="rock" onclick="rpsgame(this)" alt="img" style="height: 120px; width: 120px;">
+                <img src="scissors.png" id="scissors" onclick="rpsgame(this)" alt="img" style="height: 120px; width: 120px;">
+                <img src="paper - Copy.png" id="paper" onclick="rpsgame(this)" alt="img" style="height: 120px; width:120px;">
+            </div>
+    
+            
+        </div>
+
+        <!-- challenge 4 -->
+
+        <div id="container-2">
+            <h2 class="container-1" id="cha4">
+                challenge 4: Change The Color of All Buttons
+            </h2>
+
+
+            <div id="flexbox-color" class="container-1">
+                <form action="">
+                    <select name="backdrop" id="background" onchange="buttoncolorchange(this)">
+                        <option value="random">Random</option>
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="reset">Reset</option> 
+                    </select>
+                </form>
+                
+    
+                <button class="weee" id="btn3">Weee</button>
+                <button class="yahoo" id="btn4">Yahoo</button>
+                <button class="google" id="btn5">Google</button>
+                <button class="facebook" id="btn6">Facebook</button>
+            </div>
+                
+
+        </div>
+
+        <!-- challenge 5 -->
+            
+        <div class="container-1">
+            <h2 class="container-1" id="cha4">Challenge 5: Guessing game</h2>
+
+
+                <div>
+                    <div class="flex-box-container-1">
+                        <div id="guesses">
+                            <button id="guess" onclick="game(this)">guess</button>
+                        </div>
+    
+                        <div class="reset">
+                            <button id="reset" onclick="restart()">restart</button>
+                        </div>
+                    </div>
+                
+
+                    <div class="flex-box-container-1" id="placement">
+                        <div id="rresult" class="result"></div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <!-- challenge 6 -->
+
+            <div class="container-1">
+                <h2 class="container-1" style="padding:10px">Challenge 5</h2>
+
+                <!-- <form action="" class="loginform"> -->
+                    <div class="container-1" id="formzz" style="padding-bottom: 20px;">
+                        <div>
+                            <h4>Input Usename</h4>
+                            <input type="text" id="username">
+                        </div>
+    
+                        <div style="padding-bottom: 18px;">
+                            <h4>Input Password</h4>
+                            <input type="text" id="password">
+                        </div>
+    
+                        <div>
+                            <button id="guess" class="enterb" onclick="enter(this)">Enter</button>
+                        </div>
+                        <br>
+                        <div class="flex-box-container-1" id=" cha5">
+                            <div id="list" class="result"></div>
+                        </div>
+                    </div>
+                <!-- </form> -->
+            </div>
+                
+
+
+
+    </div>
+
+
+    <script src="python.js"></script>
+</body>
+</html>
